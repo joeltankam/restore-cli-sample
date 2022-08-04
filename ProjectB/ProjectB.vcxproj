@@ -145,9 +145,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProjectC\ProjectC.csproj">
-      <Project>{e5599aee-f39e-4613-b48d-7824eca526e5}</Project>
-    </ProjectReference>
+    <ProjectReference Include="..\ProjectC\ProjectC.csproj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
